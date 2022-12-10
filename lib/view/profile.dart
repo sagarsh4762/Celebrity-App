@@ -19,7 +19,7 @@ class ProfileDetail extends StatelessWidget {
             children: <Widget>[
               const CircleAvatar(
                 radius: 50,
-                backgroundImage: AssetImage('assets/photo.jpg'),
+                backgroundImage: AssetImage('assets/favicon.jpg'),
               ),
               const Text(
                 "Sagar Sharma",

@@ -1,3 +1,4 @@
+import 'package:celebrity_details/splashscreen/splash_screen.dart';
 import 'package:celebrity_details/view/home_page.dart';
 import 'package:flutter/material.dart';
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blueGrey,
       ),
-      home: HomePage(),
+      home: SplashScreen(),
     );
   }
 }
